@@ -30,10 +30,10 @@
   * In the terminal window run the command `conda -V` to check Conda is installed and is in your path.
   * To see a list of available Python versions run the command `conda search "^python$"`
   * To simply create an environment using the same version of Python already installed on your machine with the packages you want run the command `conda create --name myenv` with the packages you want listed after the environment name.
-  * For this assignment I'll create an environment named Basics with package ipykernel (allows us to use the new environment with Jupyter Notebook) with command `conda create --name dataVis ipykernel`
+  * For this assignment I'll create an environment named Basics with package ipykernel (allows us to use the new environment with Jupyter Notebook) with command `conda create --name Basics ipykernel`
   * This will take a few minutes while the packages and dependencies are installed in the new environment.
   * Verify your new environment exists by running command `conda env list`
-  * We'll be doing this assignment in a Jupyter Notebook in Anaconda or VSCode. Activate your new environment by running the command `source activate Basics`. Add the kernel for your new environment to Jupyter Notebook by running the command `python -m ipykernel install --user --name=dataVis`.
+  * We'll be doing this assignment in a Jupyter Notebook in Anaconda or VSCode. Activate your new environment by running the command `source activate Basics`. Add the kernel for your new environment to Jupyter Notebook by running the command `python -m ipykernel install --user --name=Basics`.
   
 ## Open the repository Jupyter Notebook
 * Open Jupyter Notebook on your machine.
