@@ -1,11 +1,11 @@
-# First Jupyter Notebook - Introduction to Data Analysis
+# Python Basics Tutorial
 
 ## Summary of steps to complete
 
 - [ ] Fork this repository so you have your own copy to work on.
 - [ ] Clone the repository on your local machine. 
 - [ ] Run Conda commands to create a new Conda environment for this assignment.
-- [ ] Open the repository Jupyter Notebook in Jupyter Notebooks.
+- [ ] Open the repository Jupyter Notebook in VSCode or Jupyter Notebooks.
 - [ ] Add the code shown in this video to your Jupyter Notebook.
 - [ ] Push your updated file to your GitHub repository.
 - [ ] Answer assignment questions and submit a link to this GitHub repository in Canvas.
@@ -25,14 +25,14 @@
 
 * This can be done directly in VSCode
   * Open a new terminal in VSCode.
-  * If you know the packages you will use for the project, you can install the packages at the same time you create the new environment using Conda. For this assignment we'll install the pandas and matplotlib packages.
+  * If you know the packages you will use for the project, you can install the packages at the same time you create the new environment using Conda. For this assignment we will install ipykernel so we can add the new environment to Jupyter Notebook.
   * In the terminal window run the command `conda -V` to check Conda is installed and is in your path.
   * To see a list of available Python versions run the command `conda search "^python$"`
   * To simply create an environment using the same version of Python already installed on your machine with the packages you want run the command `conda create --name myenv` with the packages you want listed after the environment name.
-  * For this assignment I'll create an environment named dataVis with packages pandas and matplotlib and nb_conda_kernels (allows us to use the new environment with Jupyter Notebook) with command `conda create --name dataVis pandas matplotlib nb_conda_kernels`
+  * For this assignment I'll create an environment named Basics with package ipykernel (allows us to use the new environment with Jupyter Notebook) with command `conda create --name dataVis ipykernel`
   * This will take a few minutes while the packages and dependencies are installed in the new environment.
   * Verify your new environment exists by running command `conda env list`
-  * We'll be doing this assignment in a Jupyter Notebook in Anaconda. Activate your new environment by running the command `source activate dataVis`. Add the kernel for your new environment to Jupyter Notebook by running the command `python -m ipykernel install --user --name=dataVis`.
+  * We'll be doing this assignment in a Jupyter Notebook in Anaconda or VSCode. Activate your new environment by running the command `source activate Basics`. Add the kernel for your new environment to Jupyter Notebook by running the command `python -m ipykernel install --user --name=dataVis`.
   
 ## Open the repository Jupyter Notebook
 * Open Jupyter Notebook on your machine.
@@ -42,8 +42,9 @@
 
 ## Follow along with this tutorial
 
-* Intro to Data Analysis (22 min): https://www.youtube.com/watch?v=a9UrKTVEeZA&list=PLG9A6ovzPqX6d9uWzx0UYN9pm0zzl5ofA&index=12
-  * Enter the code and run it in your Jupyter Notebook file.
+* Complete the Learn the Basics section at: https://www.learnpython.org/
+  * Enter each code section in a separate cell and run it in your Jupyter Notebook file.
+  * An easy short cut is to hit Shift-Enter after you've entered the code in a cell. This runs the cell and creates a new one below for the next code block.
   * When you're done make sure you save your file.
 
 ## Push your updated file to your GitHub repository
@@ -55,3 +56,11 @@
   * Enter a commit message in the message field and click the checkmark to commit the change.
   * Click on the 3 dots for more actions and select Sync. This will push the updated file to your GitHub repository.
   * Submit the link to your GitHub repository on Canvas.
+  
+## Remove your virtual environment
+
+* You can remove your virtual environment for this assignment from your Jupyter Notebook and your computer.
+* In the terminal run the code `jupyter kernelspec list` to see what environments are available for your notebooks.
+* To remove the environment from your Jupyter Notebooks run the code `jupyter kernelspec uninstall Basics`.
+* Get a list of the environments in Conda run `conda env list`.
+* To delete an environment and everything in it run `conda env remove --name Basics`.
