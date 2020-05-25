@@ -9,6 +9,7 @@
 - [ ] Add the code shown in this video to your Jupyter Notebook.
 - [ ] Push your updated file to your GitHub repository.
 - [ ] Answer assignment questions and submit a link to this GitHub repository in Canvas.
+- [ ] Remove your virtual environment from Jupyter Notebooks and from your machine.
 
 ## Fork & Clone this repository
 
