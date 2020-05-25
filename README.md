@@ -38,7 +38,8 @@
 ## Open the repository Jupyter Notebook
 * Open Jupyter Notebook on your machine.
 * In the Files tab you should see folders that match the folders on your machine (i.e. Desktop, Documents, Downloads). Navigate to your repository folder by clicking on the folder links. Open the .ipynb file in your repository by clicking on it.
-* When your repository workbook opens in your browser window, make sure you're using your assignment workbook with the new environment by going to Kernel - change kernel - select dataVis
+* When your repository workbook opens in your browser window, make sure you're using your assignment workbook with the new environment by going to Kernel - change kernel - select Basics
+* Jupyter Notebooks can also be run in VSCode. Once you click on the file in VSCode, it takes a minute to start up. Once it starts you can create cells and run code. (The interface is a little different, though.)
 
 
 ## Follow along with this tutorial
